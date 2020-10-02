@@ -26,3 +26,97 @@ c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
 d-¿Los datos que tenia en mi repositorio , editados por mi, se pierden si quiero actualizar el fork?
 	Si, van a ser pisados.
 
+RESPUESTA ALFA:
+e- Juan Ignacio Mazzucchelli Puente:
+git clone https://github.com/Mazzu98/TP_SO_i2_109.git
+git add .
+git commit -m "punto 1"
+git push
+git push
+git push https://github.com/Mazzu98/TP_SO_i2_109.git
+git remote add Mazzu98 https://github.com/Mazzu98/TP_SO_i2_109.git
+git push
+git commit -m "punto 1"
+git push Mazzu98
+git push
+git clone
+git clone https://github.com/JuangaPalermo/TP_SO_i2_109.git
+git push
+git add .
+git commit -m "Punto 1"
+git push
+git add .
+git commit -m "Punto 1"
+git push
+git pull
+git add .
+git commit -m "Punto 4"
+git push
+git add remote https://github.com/Mazzu98/TP_SO_i2_109.git
+git remote add https://github.com/Mazzu98/TP_SO_i2_109.git
+git remote add origin https://github.com/Mazzu98/TP_SO_i2_109.git
+git remote add -v https://github.com/Mazzu98/TP_SO_i2_109.git
+git remote add -f https://github.com/Mazzu98/TP_SO_i2_109.git
+git remote -v
+git remote rm  https://github.com/JuangaPalermo/TP_SO_i2_109.git
+git remote rm origin
+git remote -v
+git remote add origin https://github.com/Mazzu98/TP_SO_i2_109.git
+git add .
+commit -m "Respuestas de BETA"
+git push
+git push -u origin main
+
+Juan Gabriel Palermo:
+   50  git clone https://github.com/JuangaPalermo/TP_SO_i2_109.git
+   51  git status
+   52  git status
+   53  git commit -m "Modificacion GAMMA - Punto 2"
+   54  git add .
+   55  git commit -m "Modificacion GAMMA - Punto 2"
+   56  git push
+   57  exit
+   58  git remote add upstream https://github.com/Mazzu98/TP_SO_i2_109.git
+   59  git fetch upstream
+   60  git checkout master
+   61  git rebase upstream/master
+   62  git rebase upstream/main
+   63  git push -f origin/master
+   64  git push -f origin master
+   65  git push
+   66  git push -f
+   67  exit
+   68  git add .
+   69  git commit -m "Actualizacion preguntas GAMMA - Punto 5"
+   70  git push
+   71  exit
+   72  git add .
+   73  git commit -m "Correccion archivo, se cambia el documento de las respuestas"
+   74  git push
+   75  exit
+   76  history > miHistorial
+
+Luciano Cantero:
+git clone https://github.com/lucanter/TP_SO_i2_109.git
+git status
+git add .
+git commit -m "3"
+git push
+git remote add upstream https://github.com/Mazzu98/TP_SO_i2_109.git
+git commit -m "alfa 5"
+git fetch upstream
+git checkout master
+git checkout main
+git rebase upstream/main
+git push -f origin main
+history > historialTP2
+git remote add upstream https://github.com/Mazzu98/TP_SO_i2_109.git
+git fetch upstream
+git checkout main
+git rebase upstream/main
+git push -f origin main
+git clone https://github.com/lucanter/TP_SO_i2_109.git
+git status
+git add .
+git commit -m "e"
+git push
