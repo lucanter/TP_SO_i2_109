@@ -1,0 +1,20 @@
+INTEGRANTES:
+
+Juan Gabriel Palermo
+Juan Ignacio Mazzucchelli Puente
+Luciano Cantero
+
+
+RESPUESTAS GAMMA:
+
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+	
+	Debo agregar la referencia al repositorio con git remote add upstream [link repositorio]
+	Agrego todas las ramas del repositorio con git fetch upstream
+	Voy a la rama que quiero actualizar con git chechout master (o main, o la que corresponda)
+	Reescribo la rama con los commits del repositorio original, con git rebase upstream/master
+	Pusheo los cambios con git push -f origin master
+
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+	
+	Si, si puede, haciendo referencia a ese fork.
